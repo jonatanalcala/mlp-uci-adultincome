@@ -19,6 +19,7 @@ mlp-uci-adultincome/
 │  └─ 02_mlp.ipynb                                     # Part 2: Multilayer Perceptron
 ├─ outputs/                                            # Model prediction for MLP model                                
 │  ├─ Group_18_MLP_PredictedOutputs.csv
+│  ├─ models/                                           # Final MLP Model Congfiguration
 │  └─ graphs/                                          # Loss/Accuracy Curves, Confusion Matrix, etc. 
 ```
 
