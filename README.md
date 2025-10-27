@@ -65,7 +65,13 @@ mlp-uci-adultincome/
 ## Results
 
 **MLP Implementation**
-- TO DO
+- We built a Multilayer Perceptron (MLP) in PyTorch and iteratively tuned its hyperparameters (hidden layer sizes, dropout, activation functions, learning rate).
+
+- After comparing multiple candidate architectures, we selected a balanced final model with **two hidden layers of sizes 256 and 128**, **ReLU activations**, **dropout of 0.30**, and **Adam optimizer** with **learning rate 0.001**.
+
+- This final model achieved **~85% validation accuracy**, maintained strong precision on the `>50K` income class, and showed stable training/validation loss behavior with only mild overfitting.
+
+- We retrained this selected configuration for **20 epochs** on the training split and saved the resulting weights to `outputs/models/final_mlp.pt` for downstream inference and submission predictions.
 
 ---
 
