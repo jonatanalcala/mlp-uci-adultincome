@@ -38,7 +38,10 @@ mlp-uci-adultincome/
   - Model architecture (e.g., number of layers)
  
 - **Visualization**
-  - TO DO
+  - Confusion Matrix
+  - Validation Loss
+  - Training Loss Curve
+  - Accuracy by Candidate
 
 - **Refelction**
   - Evaluating MLP Architecture
